@@ -8,7 +8,7 @@ body {
 *, *:before, *:after {
     box-sizing: inherit;}
 
-main img, aside img {
+img{
     width: 85%;
     max-width: 450px;
     height: 320px;
