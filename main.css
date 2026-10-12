@@ -1,23 +1,29 @@
 body {
-  background-color: mediumaquamarine
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: mediumaquamarine;
 }
 
 header {
-    color: mediumseagreen
+    background-color: mediumseagreen;
 }
 
 h1 {
-  color: 
+  color:white;
 }
 
 nav > ul {
-  color: skyblue
+  line-height: 2em;
+  list-style-type: none;
+  padding-left: 5px;
 }
 
 section {
-    color:slateblue
+    background-color:slateblue;
+    width: 75%;
+    font-size: 1.2em;
 }
 
 footer {
-    color:steelblue
+    background-color:steelblue;
+
 }
