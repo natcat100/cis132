@@ -10,7 +10,7 @@ body {
 
 img{
     width: 50%;
-    max-width: 300px;
+    max-width: 100px;
     height: 400px;
     object-fit: cover;
     display: block;
