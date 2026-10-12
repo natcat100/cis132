@@ -9,10 +9,11 @@ body {
     box-sizing: inherit;}
 
 img{
-    width: 75%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 350px;
     height: auto;
-    display: inline-block;
+    display: block;
+    margin: 15px auto;
     border-radius: 8px;}
 
 header {
