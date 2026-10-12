@@ -70,6 +70,11 @@ aside {
   float: right;
   box-sizing: border-box;}
 
+p {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;}
+
 
 section {
     background-color:rgb(72, 123, 174);
