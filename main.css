@@ -8,9 +8,10 @@ body {
 *, *:before, *:after {
     box-sizing: inherit;}
 
-img {
+main img, aside img {
     max-width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
     display: block;}
 
 header {
@@ -25,12 +26,13 @@ h1 {
 #nav_menu ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: lightgoldenrodyellow;}
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(189, 189, 120);
+  border-radius: 4px}
 
 #nav_menu ul li {
-  float: left;}
+  display: inline-block;}
 
 #nav_menu ul li a {
   text-align: center;
@@ -47,12 +49,13 @@ h1 {
   border-right: none; } 
 
 #nav_menu ul li a.current { 
-  color: lightgreen; }
+  background-color: lightgreen;
+  color: white; }
 
 
 main{
   width: 50%;
-  height: 300px;
+  min-height: 300px;
   border-right: 2px solid;
   float: left;}
 
