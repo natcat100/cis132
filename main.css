@@ -58,6 +58,7 @@ h1 {
 
 
 main {
+  background-color: rgb(205, 240, 205);
   text-align: center;
   width: 48%;
   box-sizing: border-box;
