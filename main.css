@@ -9,10 +9,12 @@ body {
     box-sizing: inherit;}
 
 main img, aside img {
-    max-width: 100%;
-    height: 250px;
+    width: 85%;
+    max-width: 450px;
+    height: 320px;
     object-fit: cover;
-    display: block;}
+    display: block;
+    border-radius: 8px;}
 
 header {
     background-color: rgb(92, 172, 128);
@@ -53,15 +55,15 @@ h1 {
   color: white; }
 
 
-main{
-  width: 50%;
-  min-height: 300px;
-  border-right: 2px solid;
+main {
+  width: 48%;
+  box-sizing: border-box;
   float: left;}
 
 aside {
-  width: 50%;
-  float: right;}
+  width: 48%;
+  float: right;
+  box-sizing: border-box;}
 
 
 section {
